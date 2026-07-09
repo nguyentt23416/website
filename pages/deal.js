@@ -1,5 +1,7 @@
 const params = new URLSearchParams(location.search);
 const tripId = params.get("id");
+const travelioDisableWikiGalleryOverride = true;
+try { localStorage.removeItem("travelioWikiGalleryCache"); } catch (_) {}
 
 const gallerySets = [
   {
@@ -417,8 +419,6 @@ async function initDeal() {
     <div>${imageBlock(trip, "food street")}</div>
     <div>${imageBlock(trip, "hotel resort")}</div>
   `;
-
-  loadLiveTripGallery(trip);
 
   document.getElementById("side-summary").innerHTML = `
     <h3>${trip.title}</h3>
