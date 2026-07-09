@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>travel.io — Deals & Packages</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="deals.css" />
+</head>
+<body class="deals-page" data-base="../">
+  <header class="topbar page-topbar">
+    <a class="brand" href="../landing.html">travel.io</a>
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a href="listing.html">Destinations</a>
+      <a href="deals.html">Packages</a>
+    </nav>
+    <div class="account-links"><a href="#">Help</a><span class="globe">◉</span><span class="divider"></span><a href="login.html">Log In</a></div>
+  </header>
+
+  <main>
+    <section class="deals-hero">
+      <div class="shell">
+        <p>Curated travel offers</p>
+        <h1>Deals & Packages</h1>
+        <span id="deals-subtitle">Browse all current travel deals, packages, summer offers, and last minute escapes.</span>
+      </div>
+    </section>
+
+    <section class="deals-layout shell">
+      <aside class="deals-filters">
+        <button class="clear-deals" id="clear-deals" type="button">Clear all filters</button>
+        <div class="deal-filter-card">
+          <h3>Package type</h3>
+          <label><input class="type-filter" type="checkbox" value="popular">Popular Deals</label>
+          <label><input class="type-filter" type="checkbox" value="recent">Recent Packages</label>
+          <label><input class="type-filter" type="checkbox" value="summer">Summer Offers</label>
+          <label><input class="type-filter" type="checkbox" value="last-minute">Last Minute Deals</label>
+        </div>
+        <div class="deal-filter-card">
+          <h3>Discount</h3>
+          <label><input class="discount-filter" type="radio" name="discount" value="0" checked>Any discount</label>
+          <label><input class="discount-filter" type="radio" name="discount" value="15">15% and above</label>
+          <label><input class="discount-filter" type="radio" name="discount" value="20">20% and above</label>
+          <label><input class="discount-filter" type="radio" name="discount" value="25">25% and above</label>
+          <label><input class="discount-filter" type="radio" name="discount" value="30">30% and above</label>
+        </div>
+        <div class="deal-filter-card">
+          <h3>Price</h3>
+          <div class="range-row">
+            <input id="deal-price-min-display" value="Min €0" readonly>
+            <input id="deal-price-max-display" value="Max €0" readonly>
+          </div>
+          <div class="range-control">
+            <input id="deal-price-min" type="range" min="0" max="5000" value="0">
+            <input id="deal-price-max" type="range" min="0" max="5000" value="5000">
+          </div>
+        </div>
+        <div class="deal-filter-card">
+          <h3>Rating</h3>
+          <div class="deal-stars" id="deal-stars">
+            <button type="button" data-rating="1">☆</button>
+            <button type="button" data-rating="2">☆</button>
+            <button type="button" data-rating="3">☆</button>
+            <button type="button" data-rating="4">☆</button>
+            <button type="button" data-rating="5">☆</button>
+          </div>
+        </div>
+      </aside>
+
+      <section class="deals-results">
+        <div class="deals-toolbar">
+          <h2><span id="deals-count">0</span> deals & packages</h2>
+          <label>Sort By
+            <select id="deal-sort">
+              <option value="recommended">Recommended</option>
+              <option value="price-asc">Price low to high</option>
+              <option value="price-desc">Price high to low</option>
+              <option value="discount">Highest discount</option>
+              <option value="rating">Highest rating</option>
+            </select>
+          </label>
+        </div>
+        <div class="deal-grid" id="deal-grid" aria-live="polite"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><h2>travel.io</h2><p>To connect people with the beauty of the world through curated tours, sustainable travel options, and exceptional service.</p></div>
+    <div><h3>About</h3><a>About Us</a><a>Our Mission</a><a>Testimonials</a><a>Careers</a></div>
+    <div><h3>Explore</h3><a href="listing.html">Destinations</a><a href="deals.html">Packages</a><a href="deals.html?type=last-minute">Last Minute Deals</a></div>
+    <div><h3>Support</h3><a>Support Center</a><a>FAQs</a><a>Booking Policies</a><a>Cancellation & Refund Policy</a></div>
+    <div><h3>Legal</h3><a>Terms & Conditions</a><a>Privacy Policy</a><a>Cookie Policy</a></div>
+  </footer>
+
+  <script src="../auth-nav.js"></script>
+  <script src="deals.js"></script>
+</body>
+</html>

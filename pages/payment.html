@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>travel.io — Payment</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="booking.css" />
+</head>
+<body class="checkout-page" data-base="../">
+  <header class="topbar page-topbar">
+    <a class="brand" href="../landing.html">travel.io</a>
+    <nav class="main-nav"><a href="listing.html">Destinations</a><a href="deals.html">Packages</a></nav>
+    <div class="account-links"><a href="#">Help</a><span class="globe">◉</span><span class="divider"></span><a href="login.html">Log In</a></div>
+  </header>
+
+  <main class="checkout-shell">
+    <div class="stepper"><span class="done">Choose your tour</span><span class="done">Your details</span><span class="active">Finish booking</span></div>
+    <div class="checkout-grid">
+      <form class="checkout-main" id="payment-form" novalidate>
+<section class="checkout-card">
+          <h2>Pay with</h2>
+          <div class="payment-grid">
+            <label>Credit or debit card<select required><option>Visa / Mastercard</option><option>American Express</option></select></label>
+            <label>Card number<input id="card-number" inputmode="numeric" maxlength="19" placeholder="1234 5678 9012 3456" required></label>
+            <label>Expiration<input id="card-exp" placeholder="MM/YY" maxlength="5" required></label>
+            <label>CVV<input id="card-cvv" inputmode="numeric" maxlength="4" placeholder="123" required></label>
+          </div>
+          <h3>Billing address</h3>
+          <div class="payment-grid">
+            <label>Name on card<input id="billing-name" required></label>
+            <label>Street address<input id="street" required></label>
+            <label>City<input id="city" required></label>
+            <label>ZIP code<input id="zip" required></label>
+            <label>Country/region<select id="country" required><option value="">Choose your country</option><option>Afghanistan</option><option>Albania</option><option>Algeria</option><option>Andorra</option><option>Angola</option><option>Argentina</option><option>Armenia</option><option>Australia</option><option>Austria</option><option>Azerbaijan</option><option>Bahamas</option><option>Bahrain</option><option>Bangladesh</option><option>Belgium</option><option>Bolivia</option><option>Bosnia and Herzegovina</option><option>Brazil</option><option>Brunei</option><option>Bulgaria</option><option>Cambodia</option><option>Canada</option><option>Chile</option><option>China</option><option>Colombia</option><option>Costa Rica</option><option>Croatia</option><option>Cuba</option><option>Cyprus</option><option>Czech Republic</option><option>Denmark</option><option>Dominican Republic</option><option>Ecuador</option><option>Egypt</option><option>Estonia</option><option>Ethiopia</option><option>Finland</option><option>France</option><option>Georgia</option><option>Germany</option><option>Ghana</option><option>Greece</option><option>Hong Kong</option><option>Hungary</option><option>Iceland</option><option>India</option><option>Indonesia</option><option>Iran</option><option>Iraq</option><option>Ireland</option><option>Israel</option><option>Italy</option><option>Japan</option><option>Jordan</option><option>Kazakhstan</option><option>Kenya</option><option>Kuwait</option><option>Laos</option><option>Latvia</option><option>Lebanon</option><option>Lithuania</option><option>Luxembourg</option><option>Malaysia</option><option>Maldives</option><option>Mexico</option><option>Monaco</option><option>Mongolia</option><option>Morocco</option><option>Myanmar</option><option>Nepal</option><option>Netherlands</option><option>New Zealand</option><option>Nigeria</option><option>Norway</option><option>Oman</option><option>Pakistan</option><option>Peru</option><option>Philippines</option><option>Poland</option><option>Portugal</option><option>Qatar</option><option>Romania</option><option>Russia</option><option>Saudi Arabia</option><option>Serbia</option><option>Singapore</option><option>Slovakia</option><option>Slovenia</option><option>South Africa</option><option>South Korea</option><option>Spain</option><option>Sri Lanka</option><option>Sweden</option><option>Switzerland</option><option>Taiwan</option><option>Thailand</option><option>Turkey</option><option>Ukraine</option><option>United Arab Emirates</option><option>United Kingdom</option><option>United States</option><option>Uruguay</option><option>Venezuela</option><option>Vietnam</option></select></label>
+          </div>
+        </section>
+
+        <section class="checkout-card">
+          <h2>Cancellation policy</h2>
+          <ul><li>This rate is non refundable after payment is completed.</li><li>No refunds are issued for late check-in or early check-out.</li><li>Stay extensions require a new reservation.</li></ul>
+        </section>
+
+        <section class="checkout-card">
+          <h2>Privacy policy</h2>
+          <label class="terms-row"><input id="terms" type="checkbox" required> I accept travel.io's Terms & Conditions and Privacy Policy.</label>
+        </section>
+
+        <p class="form-error" id="payment-error"></p>
+      </form>
+      <aside class="checkout-side" id="payment-summary"></aside>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div><h2>travel.io</h2><p>To connect people with the beauty of the world through curated tours and exceptional service.</p></div></footer>
+
+  <script src="../auth-nav.js"></script>
+  <script src="auth-store.js"></script>
+  <script src="booking-store.js"></script>
+  <script src="payment.js"></script>
+</body>
+</html>

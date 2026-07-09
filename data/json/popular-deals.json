@@ -1,0 +1,322 @@
+[
+  {
+    "title": "Italy Coastal Deal",
+    "date": "Jun 3 - 12",
+    "rating": "4.91",
+    "currency": "€",
+    "originalPrice": 1899,
+    "discountPercent": 25,
+    "finalPrice": 1424,
+    "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Italy Coastal Deal photo",
+    "badges": [
+      "25% Off"
+    ],
+    "id": "popular-01",
+    "href": "pages/deal.html?id=popular-01"
+  },
+  {
+    "title": "Thailand Beach Break",
+    "date": "Jun 8 - 15",
+    "rating": "4.78",
+    "currency": "€",
+    "originalPrice": 1299,
+    "discountPercent": 20,
+    "finalPrice": 1039,
+    "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Thailand Beach Break photo",
+    "badges": [
+      "20% Off"
+    ],
+    "id": "popular-02",
+    "href": "pages/deal.html?id=popular-02"
+  },
+  {
+    "title": "Japan City Lights",
+    "date": "Jul 2 - 9",
+    "rating": "4.67",
+    "currency": "€",
+    "originalPrice": 1699,
+    "discountPercent": 30,
+    "finalPrice": 1189,
+    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Japan City Lights photo",
+    "badges": [
+      "30% Off"
+    ],
+    "id": "popular-03",
+    "href": "pages/deal.html?id=popular-03"
+  },
+  {
+    "title": "Morocco Desert Escape",
+    "date": "Jun 12 - 19",
+    "rating": "4.72",
+    "currency": "€",
+    "originalPrice": 1399,
+    "discountPercent": 15,
+    "finalPrice": 1189,
+    "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Morocco Desert Escape photo",
+    "badges": [
+      "15% Off"
+    ],
+    "id": "popular-04",
+    "href": "pages/deal.html?id=popular-04"
+  },
+  {
+    "title": "Greece Island Hop",
+    "date": "Jul 5 - 12",
+    "rating": "4.88",
+    "currency": "€",
+    "originalPrice": 1799,
+    "discountPercent": 30,
+    "finalPrice": 1259,
+    "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Greece Island Hop photo",
+    "badges": [
+      "30% Off"
+    ],
+    "id": "popular-05",
+    "href": "pages/deal.html?id=popular-05"
+  },
+  {
+    "title": "Spain Coast Cities",
+    "date": "Jul 10 - 17",
+    "rating": "4.64",
+    "currency": "€",
+    "originalPrice": 1499,
+    "discountPercent": 20,
+    "finalPrice": 1199,
+    "image": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Spain Coast Cities photo",
+    "badges": [
+      "20% Off"
+    ],
+    "id": "popular-06",
+    "href": "pages/deal.html?id=popular-06"
+  },
+  {
+    "title": "Portugal Ocean Road",
+    "date": "Jun 22 - 29",
+    "rating": "4.69",
+    "currency": "€",
+    "originalPrice": 1350,
+    "discountPercent": 15,
+    "finalPrice": 1148,
+    "image": "https://images.unsplash.com/photo-1513735492246-483525079686?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Portugal Ocean Road photo",
+    "badges": [
+      "15% Off"
+    ],
+    "id": "popular-07",
+    "href": "pages/deal.html?id=popular-07"
+  },
+  {
+    "title": "France Riviera Days",
+    "date": "Jul 14 - 21",
+    "rating": "4.75",
+    "currency": "€",
+    "originalPrice": 1899,
+    "discountPercent": 25,
+    "finalPrice": 1424,
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1000&q=80",
+    "alt": "France Riviera Days photo",
+    "badges": [
+      "25% Off"
+    ],
+    "id": "popular-08",
+    "href": "pages/deal.html?id=popular-08"
+  },
+  {
+    "title": "Croatia Yacht Week",
+    "date": "Aug 1 - 8",
+    "rating": "4.82",
+    "currency": "€",
+    "originalPrice": 1999,
+    "discountPercent": 30,
+    "finalPrice": 1399,
+    "image": "https://images.unsplash.com/photo-1555990538-c48dbe5fcb17?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Croatia Yacht Week photo",
+    "badges": [
+      "30% Off"
+    ],
+    "id": "popular-09",
+    "href": "pages/deal.html?id=popular-09"
+  },
+  {
+    "title": "Bali Tropical Escape",
+    "date": "Jun 18 - 25",
+    "rating": "4.86",
+    "currency": "€",
+    "originalPrice": 1599,
+    "discountPercent": 25,
+    "finalPrice": 1199,
+    "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Bali Tropical Escape photo",
+    "badges": [
+      "25% Off"
+    ],
+    "id": "popular-10",
+    "href": "pages/deal.html?id=popular-10"
+  },
+  {
+    "title": "Vietnam Beach Trail",
+    "date": "Jul 3 - 10",
+    "rating": "4.61",
+    "currency": "€",
+    "originalPrice": 1199,
+    "discountPercent": 20,
+    "finalPrice": 959,
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Vietnam Beach Trail photo",
+    "badges": [
+      "20% Off"
+    ],
+    "id": "popular-11",
+    "href": "pages/deal.html?id=popular-11"
+  },
+  {
+    "title": "Mexico Sun Coast",
+    "date": "Aug 6 - 13",
+    "rating": "4.73",
+    "currency": "€",
+    "originalPrice": 1499,
+    "discountPercent": 30,
+    "finalPrice": 1049,
+    "image": "https://images.unsplash.com/photo-1518638150340-f706e86654de?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Mexico Sun Coast photo",
+    "badges": [
+      "30% Off"
+    ],
+    "id": "popular-12",
+    "href": "pages/deal.html?id=popular-12"
+  },
+  {
+    "title": "Turkey Blue Voyage",
+    "date": "Jun 28 - Jul 5",
+    "rating": "4.66",
+    "currency": "€",
+    "originalPrice": 1399,
+    "discountPercent": 25,
+    "finalPrice": 1049,
+    "image": "https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Turkey Blue Voyage photo",
+    "badges": [
+      "25% Off"
+    ],
+    "id": "popular-13",
+    "href": "pages/deal.html?id=popular-13"
+  },
+  {
+    "title": "Egypt Nile Journey",
+    "date": "Jul 9 - 16",
+    "rating": "4.58",
+    "currency": "€",
+    "originalPrice": 1299,
+    "discountPercent": 15,
+    "finalPrice": 1104,
+    "image": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Egypt Nile Journey photo",
+    "badges": [
+      "15% Off"
+    ],
+    "id": "popular-14",
+    "href": "pages/deal.html?id=popular-14"
+  },
+  {
+    "title": "Singapore City Stop",
+    "date": "Aug 11 - 17",
+    "rating": "4.62",
+    "currency": "€",
+    "originalPrice": 1199,
+    "discountPercent": 20,
+    "finalPrice": 959,
+    "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Singapore City Stop photo",
+    "badges": [
+      "20% Off"
+    ],
+    "id": "popular-15",
+    "href": "pages/deal.html?id=popular-15"
+  },
+  {
+    "title": "Australia Reef Trip",
+    "date": "Jul 20 - 29",
+    "rating": "4.80",
+    "currency": "€",
+    "originalPrice": 2199,
+    "discountPercent": 25,
+    "finalPrice": 1649,
+    "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Australia Reef Trip photo",
+    "badges": [
+      "25% Off"
+    ],
+    "id": "popular-16",
+    "href": "pages/deal.html?id=popular-16"
+  },
+  {
+    "title": "New Zealand Lakes",
+    "date": "Aug 3 - 12",
+    "rating": "4.77",
+    "currency": "€",
+    "originalPrice": 2299,
+    "discountPercent": 15,
+    "finalPrice": 1954,
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1000&q=80",
+    "alt": "New Zealand Lakes photo",
+    "badges": [
+      "15% Off"
+    ],
+    "id": "popular-17",
+    "href": "pages/deal.html?id=popular-17"
+  },
+  {
+    "title": "United States West Coast",
+    "date": "Jun 9 - 18",
+    "rating": "4.70",
+    "currency": "€",
+    "originalPrice": 2099,
+    "discountPercent": 30,
+    "finalPrice": 1469,
+    "image": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?auto=format&fit=crop&w=1000&q=80",
+    "alt": "United States West Coast photo",
+    "badges": [
+      "30% Off"
+    ],
+    "id": "popular-18",
+    "href": "pages/deal.html?id=popular-18"
+  },
+  {
+    "title": "United Kingdom Garden Tour",
+    "date": "Jul 1 - 8",
+    "rating": "4.55",
+    "currency": "€",
+    "originalPrice": 1299,
+    "discountPercent": 20,
+    "finalPrice": 1039,
+    "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1000&q=80",
+    "alt": "United Kingdom Garden Tour photo",
+    "badges": [
+      "20% Off"
+    ],
+    "id": "popular-19",
+    "href": "pages/deal.html?id=popular-19"
+  },
+  {
+    "title": "Dubai Skyline Break",
+    "date": "Aug 14 - 20",
+    "rating": "4.60",
+    "currency": "€",
+    "originalPrice": 1499,
+    "discountPercent": 25,
+    "finalPrice": 1124,
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Dubai Skyline Break photo",
+    "badges": [
+      "25% Off"
+    ],
+    "id": "popular-20",
+    "href": "pages/deal.html?id=popular-20"
+  }
+]

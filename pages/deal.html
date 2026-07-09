@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>travel.io — Package Details</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="booking.css" />
+</head>
+<body class="detail-page" data-base="../">
+  <header class="topbar page-topbar">
+    <a class="brand" href="../landing.html">travel.io</a>
+    <nav class="main-nav" aria-label="Primary navigation"><a href="listing.html">Destinations</a><a href="deals.html">Packages</a></nav>
+    <div class="account-links"><a href="#">Help</a><span class="globe">◉</span><span class="divider"></span><a href="login.html">Log In</a></div>
+  </header>
+
+  <main class="detail-shell">
+    <section class="gallery-grid" id="detail-gallery"></section>
+    <section class="detail-intro">
+      <div>
+        <h1 id="detail-title">Loading trip...</h1>
+        <p id="detail-copy"></p>
+      </div>
+    </section>
+
+    <nav class="detail-tabs">
+      <a href="#duration">Duration</a>
+      <a href="#flights">Flight</a>
+      <a href="#accommodation">Accommodation</a>
+      <a href="#services">Services</a>
+      <a href="#itinerary">Itinerary</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+
+    <div class="detail-layout">
+      <div class="detail-main">
+        <section class="detail-section" id="duration">
+          <h2>Duration</h2>
+          <p id="duration-copy"></p>
+          <div class="date-adjust-card" id="length-adjust-card">
+            <div class="trip-controls-grid">
+              <label>Trip date
+                <select id="trip-date-select"></select>
+              </label>
+              <label>Your region
+                <select id="traveller-region-select">
+                  <option value="London (LGW)">London (LGW)</option>
+                  <option value="Paris (CDG)">Paris (CDG)</option>
+                  <option value="Berlin (BER)">Berlin (BER)</option>
+                  <option value="Rome (FCO)">Rome (FCO)</option>
+                  <option value="Madrid (MAD)">Madrid (MAD)</option>
+                  <option value="Dubai (DXB)">Dubai (DXB)</option>
+                  <option value="Singapore (SIN)">Singapore (SIN)</option>
+                  <option value="Tokyo (HND)">Tokyo (HND)</option>
+                  <option value="Sydney (SYD)">Sydney (SYD)</option>
+                  <option value="New York (JFK)">New York (JFK)</option>
+                  <option value="Los Angeles (LAX)">Los Angeles (LAX)</option>
+                  <option value="Ho Chi Minh City (SGN)">Ho Chi Minh City (SGN)</option>
+                  <option value="Hanoi (HAN)">Hanoi (HAN)</option>
+                </select>
+              </label>
+              <label>Flight type
+                <select id="trip-type-select">
+                  <option value="round">Round trip</option>
+                  <option value="one-way">One way</option>
+                </select>
+              </label>
+            </div>
+            <div class="date-slider-row">
+              <span id="length-slider-start"></span>
+              <input id="trip-length-slider" type="range" min="0" max="0" value="0">
+              <span id="length-slider-end"></span>
+            </div>
+          </div>
+          <div class="pill-row" id="duration-pills"></div>
+        </section>
+
+        <section class="detail-section" id="flights">
+          <h2>Flights</h2>
+          <div class="flight-card flight-card-detail">
+            <div class="flight-endpoint">
+              <b>London (LGW)</b>
+              <span id="outbound-start-time">12:00</span>
+              <small id="outbound-start-date"></small>
+            </div>
+            <div class="flight-path">
+              <span class="plane-icon">✈</span>
+              <em id="outbound-duration">2 hours 25 minutes</em>
+            </div>
+            <div class="flight-endpoint right">
+              <b id="arrival-airport">Destination</b>
+              <span id="outbound-end-time">15:25</span>
+              <small id="outbound-end-date"></small>
+            </div>
+            <details class="flight-more"><summary>More detail</summary><p>Outbound flight, seat selection and baggage details are confirmed after booking.</p></details>
+          </div>
+          <div class="flight-card flight-card-detail">
+            <div class="flight-endpoint">
+              <b id="return-airport">Destination</b>
+              <span id="return-start-time">17:05</span>
+              <small id="return-start-date"></small>
+            </div>
+            <div class="flight-path">
+              <span class="plane-icon">✈</span>
+              <em id="return-duration">2 hours 25 minutes</em>
+            </div>
+            <div class="flight-endpoint right">
+              <b>London (LGW)</b>
+              <span id="return-end-time">18:30</span>
+              <small id="return-end-date"></small>
+            </div>
+            <details class="flight-more"><summary>More detail</summary><p>Return flight, seat selection and baggage details are confirmed after booking.</p></details>
+          </div>
+        </section>
+
+        <section class="detail-section" id="accommodation">
+          <h2>Accommodation</h2>
+          <div class="accordion-list" id="accommodation-list"></div>
+        </section>
+
+        <section class="detail-section" id="services">
+          <h2>Services</h2>
+          <div class="service-grid">
+            <article><b>Tour Guide</b><span>Local guide for each destination.</span></article>
+            <article><b>Meals</b><span>Breakfast and selected dinners included.</span></article>
+            <article><b>Room Services</b><span>Cleaning, laundry, and room support.</span></article>
+            <article><b>Transportation</b><span>All listed transportation is covered.</span></article>
+            <article><b>Tickets</b><span>Selected entrance tickets are included.</span></article>
+          </div>
+        </section>
+
+        <section class="detail-section itinerary-section" id="itinerary">
+          <h2>Itinerary</h2>
+          <div class="itinerary-grid">
+            <ol id="itinerary-list"></ol>
+            <div class="map-placeholder">Route map placeholder</div>
+          </div>
+        </section>
+
+        <section class="detail-section" id="reviews">
+          <h2>Reviews</h2>
+          <div class="review-grid">
+            <article><b>Maria G.</b><span>★★★★★</span><p>The trip was well organized and easy to follow.</p></article>
+            <article><b>Ross G.</b><span>★★★★★</span><p>Great hotels, smooth transfers, and helpful guides.</p></article>
+            <article><b>James R.</b><span>★★★★☆</span><p>Everything felt simple from booking to check-in.</p></article>
+          </div>
+        </section>
+      </div>
+
+      <aside class="sticky-booking">
+        <div class="side-summary" id="side-summary"></div>
+        <button class="book-now" id="book-now" type="button">Book Now</button>
+      </aside>
+    </div>
+
+    <section class="similar-section">
+      <div class="section-head"><h2>Similar Packages</h2><a href="deals.html">See All</a></div>
+      <div class="similar-grid" id="similar-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div><h2>travel.io</h2><p>To connect people with the beauty of the world through curated tours, sustainable travel options, and exceptional service.</p></div></footer>
+
+  <script src="../auth-nav.js"></script>
+  <script src="booking-store.js"></script>
+  <script src="deal.js"></script>
+</body>
+</html>

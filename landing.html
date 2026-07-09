@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>travel.io — Discover your next journey</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="landing.html">travel.io</a>
+    <nav class="main-nav" aria-label="Primary navigation"><a href="pages/listing.html">Destinations</a><a href="pages/deals.html">Packages</a></nav>
+    <div class="account-links"><a href="#">Help</a><span class="globe">◉</span><span class="divider"></span><a href="#">Log In⌄</a></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-content shell">
+        <p class="hero-kicker">Explore the world with us</p>
+        <h1>Your Dream Vacation Awaits</h1>
+        <p class="hero-subtitle">Curated escapes, flexible deals, and handpicked destinations for every kind of traveler.</p>
+        <div class="hero-actions">
+          <a class="hero-cta" href="pages/deals.html">Browse deals</a>
+          <a class="hero-link" href="#journey">Plan my trip</a>
+        </div>
+      </div>
+
+      <div class="hero-board shell">
+        <form class="search-bar" id="trip-search" action="pages/listing.html">
+          <div class="search-field field-menu">
+            <button class="field-trigger" type="button" id="country-trigger" aria-expanded="false" aria-controls="country-menu">
+              <span class="field-title">From</span>
+              <small id="country-value" aria-live="polite"></small>
+            </button>
+            <div class="field-dropdown country-menu" id="country-menu" role="menu" aria-labelledby="country-trigger"></div>
+            <input type="hidden" name="from" id="country-input">
+          </div>
+          <div class="search-field field-menu">
+            <button class="field-trigger" type="button" id="destination-trigger" aria-expanded="false" aria-controls="destination-menu">
+              <span class="field-title" id="destination-title">Destination</span>
+              <small id="destination-help" aria-live="polite"></small>
+            </button>
+            <div class="field-dropdown destination-menu" id="destination-menu" role="menu" aria-labelledby="destination-trigger"></div>
+            <input type="hidden" name="destination" id="destination-input">
+          </div>
+          <div class="search-field date-field">
+            <button class="field-trigger" type="button" id="date-trigger">
+              <span class="field-title">Date</span>
+              <small id="date-help" aria-live="polite"></small>
+            </button>
+            <input class="native-date" type="date" name="date" id="date-input" aria-label="Travel date">
+          </div>
+          <button class="search-submit" type="submit" aria-label="Search"><span>Search</span><img src="assets/images/search.svg" alt="" /></button>
+        </form>
+
+      </div>
+    </section>
+
+    <section class="listing-section full-bleed popular-deals-section" id="popular-deals">
+      <div class="section-heading"><h2>Popular Deals</h2><a href="pages/deals.html?type=popular">See All</a></div>
+      <div class="scroller" id="popular-deals-list" aria-live="polite"></div>
+    </section>
+
+    <section class="shell city-section" id="popular-cities">
+      <div class="section-heading"><h2>Popular Cities</h2><a href="pages/listing.html">Load more</a></div>
+      <div class="city-row" id="popular-cities-list" aria-live="polite"></div>
+    </section>
+
+    <section class="smart-section">
+      <div class="shell smart-wrap">
+        <div class="smart-copy"><h1>Special Deals<br>Just For You</h1><p>Handpicked packages, seasonal escapes,<br>and limited travel offers in one place.</p><a class="orange-button" href="pages/deals.html?type=popular">Explore Special Deals</a></div>
+        <div class="blog-showcase"><img class="blog-one" src="assets/images/crops/blog-left.jpg" alt="Travel packing advice" /><img class="blog-two" src="assets/images/crops/blog-right.jpg" alt="New York destination guide" /></div>
+      </div>
+    </section>
+
+    <section class="listing-section full-bleed compact" id="recent-packages">
+      <div class="section-heading"><h2>Recent Packages</h2><a href="pages/deals.html?type=recent">See All</a></div>
+      <div class="scroller" id="recent-packages-list" aria-live="polite"></div>
+    </section>
+
+    <section class="summer-section" id="summer-offers">
+      <div class="listing-section full-bleed compact">
+        <div class="section-heading inverse"><h2>Summer offers</h2><a href="pages/deals.html?type=summer">See All</a></div>
+        <div class="scroller" id="summer-offers-list" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="listing-section full-bleed compact last-section" id="last-minute-deals">
+      <div class="section-heading"><h2>Last Minute Deals</h2><a href="pages/deals.html?type=last-minute">See All</a></div>
+      <div class="scroller" id="last-minute-deals-list" aria-live="polite"></div>
+    </section>
+
+    <section class="journey shell" id="journey"><h2>Start Your Journey with travel.io!</h2><div class="tags"><a href="pages/listing.html?destination=Paris&country=France">Paris Tours</a><a href="pages/listing.html?country=United+Arab+Emirates">Dubai Luxury Escapes</a><a href="pages/listing.html?destination=Sydney&country=Australia">Sydney Harbour Cruises</a><a href="pages/listing.html?destination=London&country=United+Kingdom">London Sightseeing Tours</a><a href="pages/listing.html?country=Argentina">Patagonia Trekking</a><a href="pages/listing.html?country=South+Africa">African Safari Tours</a><a href="pages/listing.html?country=Egypt">Egypt Pyramids Tours</a><a href="pages/listing.html?country=Israel">Jerusalem Holy Land Pilgrimage</a><a href="pages/listing.html?destination=Kyoto&country=Japan">Kyoto Zen Garden Walks</a><a href="pages/listing.html?country=United+States">Hawaiian Beach Vacations</a><a href="pages/listing.html?country=Tanzania">Zanzibar Coastal Retreats</a><a href="pages/listing.html?country=Ecuador">Galápagos Islands Tours</a><a href="pages/listing.html?country=United+States">Yellowstone National Park Adventures</a><a href="pages/listing.html?country=Tanzania">Serengeti Wildlife Safaris</a><a href="pages/deals.html?type=last-minute">Limited-time Deal</a><a href="pages/listing.html?country=Greece">Private Yacht Charters in Greece</a><a href="pages/listing.html?country=Maldives">Maldives All-Inclusive Resorts</a><a href="pages/listing.html?country=Switzerland">Winter Ski Adventures in Switzerland</a></div></section>
+  </main>
+
+  <footer>
+    <div class="footer-main shell"><div class="about-brand"><h2>travel.io</h2><p>To connect people with the beauty of the world through curated tours, sustainable travel options, and exceptional service.</p></div>
+      <div class="footer-links"><div><h3>About</h3><a>About Us</a><a>Our Mission</a><a>Testimonials</a><a>Careers</a><a>Press &amp; Media</a></div><div><h3>Explore</h3><a>Destinations</a><a href="pages/deals.html">Packages</a><a href="pages/deals.html?type=last-minute">Last Minute Deals</a></div><div><h3>Support</h3><a>Support Center</a><a>FAQs</a><a>Booking Policies</a><a>Cancellation &amp; Refund Policy</a><a>Travel Insurance Information</a></div><div><h3>Resources</h3><a>Blog</a><a>Travel Tips</a><a>Packing Guides</a><a>Visa &amp; Passport Information</a><a>Health &amp; Safety</a></div><div><h3>Legal</h3><a>Terms &amp; Conditions</a><a>Privacy Policy</a><a>Cookie Policy</a><a>Accessibility Statement</a></div></div>
+    </div>
+    <div class="footer-bottom shell"><span>© 2026 travel.io, Inc.</span><span class="footer-right">◉ English (US)　€ EUR　 <img src="assets/images/facebook.svg" alt="Facebook"><img src="assets/images/youtube.svg" alt="YouTube"><img src="assets/images/instagram.svg" alt="Instagram"><img src="assets/images/tiktok.svg" alt="TikTok"></span></div>
+  </footer>
+  <script src="search.js"></script>
+  <script src="auth-nav.js"></script>
+</body>
+</html>

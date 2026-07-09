@@ -1,0 +1,82 @@
+[
+  {
+    "id": "paris",
+    "name": "Paris",
+    "country": "France",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1200&q=80",
+    "alt": "Travel photo",
+    "href": "pages/city.html?id=paris"
+  },
+  {
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "country": "Netherlands",
+    "image": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1200&q=80",
+    "alt": "Travel photo",
+    "href": "pages/city.html?id=amsterdam"
+  },
+  {
+    "id": "rome",
+    "name": "Rome",
+    "country": "Italy",
+    "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1200&q=80",
+    "alt": "Travel photo",
+    "href": "pages/city.html?id=rome"
+  },
+  {
+    "id": "florence",
+    "name": "Florence",
+    "country": "Italy",
+    "image": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1200&q=80",
+    "alt": "Travel photo",
+    "href": "pages/city.html?id=florence"
+  },
+  {
+    "id": "tokyo",
+    "name": "Tokyo",
+    "country": "Japan",
+    "image": "https://images.unsplash.com/photo-1522383225653-ed111181a951?auto=format&fit=crop&w=1200&q=80",
+    "alt": "Travel photo",
+    "href": "pages/city.html?id=tokyo"
+  },
+  {
+    "id": "mexico-city",
+    "name": "Mexico City",
+    "country": "Mexico",
+    "image": "https://images.unsplash.com/photo-1518638150340-f706e86654de?auto=format&fit=crop&w=1200&q=80",
+    "alt": "Travel photo",
+    "href": "pages/city.html?id=mexico-city"
+  },
+  {
+    "id": "bangkok",
+    "name": "Bangkok",
+    "country": "Thailand",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "alt": "Travel photo",
+    "href": "pages/city.html?id=bangkok"
+  },
+  {
+    "id": "marrakech",
+    "name": "Marrakech",
+    "country": "Morocco",
+    "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1200&q=80",
+    "alt": "Travel photo",
+    "href": "pages/city.html?id=marrakech"
+  },
+  {
+    "id": "budapest",
+    "name": "Budapest",
+    "country": "Hungary",
+    "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1200&q=80",
+    "alt": "Travel photo",
+    "href": "pages/city.html?id=budapest"
+  },
+  {
+    "id": "prague",
+    "name": "Prague",
+    "country": "Czech Republic",
+    "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1200&q=80",
+    "alt": "Travel photo",
+    "href": "pages/city.html?id=prague"
+  }
+]

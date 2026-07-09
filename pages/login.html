@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>travel.io — Sign In</title>
+  <link rel="stylesheet" href="auth.css" />
+</head>
+<body class="auth-page">
+  <main class="auth-card">
+    <section class="auth-form-panel">
+      <h1 class="auth-title">Welcome Back!</h1>
+      <p class="auth-switch">Don’t have an account? <a href="signup.html">Sign Up</a></p>
+      <form id="login-form" novalidate>
+        <div class="auth-field">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Your mail" autocomplete="email" required>
+        </div>
+        <div class="auth-field">
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Your password" autocomplete="current-password" required>
+        </div>
+        <button class="auth-button" type="submit">Sign In</button>
+        <a class="forgot-link" href="forgot-password.html">Forgot password?</a>
+        <p class="auth-error" id="auth-error" aria-live="polite"></p>
+      </form>
+    </section>
+    <section class="auth-visual">
+      <img class="auth-static-image" src="../assets/images/auth-static-placeholder.svg" alt="Travel placeholder">
+    </section>
+  </main>
+  <script src="auth-store.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>

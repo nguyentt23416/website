@@ -1,0 +1,162 @@
+[
+  {
+    "id": "summer-01",
+    "title": "Santorini Summer Escape",
+    "date": "Jun 6 - 13",
+    "rating": "4.83",
+    "currency": "€",
+    "originalPrice": 1899,
+    "discountPercent": 25,
+    "finalPrice": 1424,
+    "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Santorini Summer Escape photo",
+    "badges": [
+      "25% Off"
+    ],
+    "href": "pages/deal.html?id=summer-01"
+  },
+  {
+    "id": "summer-02",
+    "title": "Bali Beach Week",
+    "date": "Jun 10 - 17",
+    "rating": "4.78",
+    "currency": "€",
+    "originalPrice": 1699,
+    "discountPercent": 30,
+    "finalPrice": 1189,
+    "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Bali Beach Week photo",
+    "badges": [
+      "30% Off"
+    ],
+    "href": "pages/deal.html?id=summer-02"
+  },
+  {
+    "id": "summer-03",
+    "title": "Maldives Blue Lagoon",
+    "date": "Jun 18 - 25",
+    "rating": "4.91",
+    "currency": "€",
+    "originalPrice": 2499,
+    "discountPercent": 20,
+    "finalPrice": 1999,
+    "image": "https://images.unsplash.com/photo-1522383225653-ed111181a951?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Maldives Blue Lagoon photo",
+    "badges": [
+      "20% Off"
+    ],
+    "href": "pages/deal.html?id=summer-03"
+  },
+  {
+    "id": "summer-04",
+    "title": "Barcelona Sunny Break",
+    "date": "Jul 1 - 8",
+    "rating": "4.66",
+    "currency": "€",
+    "originalPrice": 1399,
+    "discountPercent": 15,
+    "finalPrice": 1189,
+    "image": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Barcelona Sunny Break photo",
+    "badges": [
+      "15% Off"
+    ],
+    "href": "pages/deal.html?id=summer-04"
+  },
+  {
+    "id": "summer-05",
+    "title": "Thailand Island Days",
+    "date": "Jul 7 - 14",
+    "rating": "4.73",
+    "currency": "€",
+    "originalPrice": 1499,
+    "discountPercent": 25,
+    "finalPrice": 1124,
+    "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Thailand Island Days photo",
+    "badges": [
+      "25% Off"
+    ],
+    "href": "pages/deal.html?id=summer-05"
+  },
+  {
+    "id": "summer-06",
+    "title": "Hawaii Surf Escape",
+    "date": "Jul 12 - 20",
+    "rating": "4.82",
+    "currency": "€",
+    "originalPrice": 2299,
+    "discountPercent": 20,
+    "finalPrice": 1839,
+    "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Hawaii Surf Escape photo",
+    "badges": [
+      "20% Off"
+    ],
+    "href": "pages/deal.html?id=summer-06"
+  },
+  {
+    "id": "summer-07",
+    "title": "Mexico Riviera Week",
+    "date": "Jul 22 - 29",
+    "rating": "4.70",
+    "currency": "€",
+    "originalPrice": 1599,
+    "discountPercent": 30,
+    "finalPrice": 1119,
+    "image": "https://images.unsplash.com/photo-1518638150340-f706e86654de?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Mexico Riviera Week photo",
+    "badges": [
+      "30% Off"
+    ],
+    "href": "pages/deal.html?id=summer-07"
+  },
+  {
+    "id": "summer-08",
+    "title": "Zanzibar Ocean Trail",
+    "date": "Aug 3 - 10",
+    "rating": "4.76",
+    "currency": "€",
+    "originalPrice": 1799,
+    "discountPercent": 15,
+    "finalPrice": 1529,
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Zanzibar Ocean Trail photo",
+    "badges": [
+      "15% Off"
+    ],
+    "href": "pages/deal.html?id=summer-08"
+  },
+  {
+    "id": "summer-09",
+    "title": "Nice Coastal Summer",
+    "date": "Aug 8 - 14",
+    "rating": "4.64",
+    "currency": "€",
+    "originalPrice": 1499,
+    "discountPercent": 20,
+    "finalPrice": 1199,
+    "image": "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Nice Coastal Summer photo",
+    "badges": [
+      "20% Off"
+    ],
+    "href": "pages/deal.html?id=summer-09"
+  },
+  {
+    "id": "summer-10",
+    "title": "Phuket Sunset Tour",
+    "date": "Aug 17 - 24",
+    "rating": "4.75",
+    "currency": "€",
+    "originalPrice": 1399,
+    "discountPercent": 25,
+    "finalPrice": 1049,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Phuket Sunset Tour photo",
+    "badges": [
+      "25% Off"
+    ],
+    "href": "pages/deal.html?id=summer-10"
+  }
+]

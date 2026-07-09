@@ -1,0 +1,162 @@
+[
+  {
+    "id": "last-minute-01",
+    "title": "A week in Netherlands",
+    "date": "Jan 5 - 12",
+    "rating": "4.65",
+    "currency": "€",
+    "originalPrice": 1999,
+    "discountPercent": 30,
+    "finalPrice": 1399,
+    "image": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1000&q=80",
+    "alt": "A week in Netherlands photo",
+    "badges": [
+      "30% Off"
+    ],
+    "href": "pages/deal.html?id=last-minute-01"
+  },
+  {
+    "id": "last-minute-02",
+    "title": "Thailand Heaven",
+    "date": "Jan 5 - 12",
+    "rating": "4.65",
+    "currency": "€",
+    "originalPrice": 1199,
+    "discountPercent": 15,
+    "finalPrice": 1019,
+    "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Thailand Heaven photo",
+    "badges": [
+      "15% Off"
+    ],
+    "href": "pages/deal.html?id=last-minute-02"
+  },
+  {
+    "id": "last-minute-03",
+    "title": "Japan's Experience",
+    "date": "Jan 5 - 12",
+    "rating": "4.65",
+    "currency": "€",
+    "originalPrice": 1499,
+    "discountPercent": 20,
+    "finalPrice": 1199,
+    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Japan's Experience photo",
+    "badges": [
+      "20% Off"
+    ],
+    "href": "pages/deal.html?id=last-minute-03"
+  },
+  {
+    "id": "last-minute-04",
+    "title": "Paris Fast Getaway",
+    "date": "Jan 8 - 13",
+    "rating": "4.61",
+    "currency": "€",
+    "originalPrice": 1399,
+    "discountPercent": 25,
+    "finalPrice": 1049,
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Paris Fast Getaway photo",
+    "badges": [
+      "25% Off"
+    ],
+    "href": "pages/deal.html?id=last-minute-04"
+  },
+  {
+    "id": "last-minute-05",
+    "title": "Budapest Flash Trip",
+    "date": "Jan 10 - 15",
+    "rating": "4.58",
+    "currency": "€",
+    "originalPrice": 1299,
+    "discountPercent": 30,
+    "finalPrice": 909,
+    "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Budapest Flash Trip photo",
+    "badges": [
+      "30% Off"
+    ],
+    "href": "pages/deal.html?id=last-minute-05"
+  },
+  {
+    "id": "last-minute-06",
+    "title": "Prague Short Break",
+    "date": "Jan 12 - 17",
+    "rating": "4.62",
+    "currency": "€",
+    "originalPrice": 1199,
+    "discountPercent": 20,
+    "finalPrice": 959,
+    "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Prague Short Break photo",
+    "badges": [
+      "20% Off"
+    ],
+    "href": "pages/deal.html?id=last-minute-06"
+  },
+  {
+    "id": "last-minute-07",
+    "title": "Morocco Quick Escape",
+    "date": "Jan 15 - 21",
+    "rating": "4.69",
+    "currency": "€",
+    "originalPrice": 1499,
+    "discountPercent": 15,
+    "finalPrice": 1274,
+    "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Morocco Quick Escape photo",
+    "badges": [
+      "15% Off"
+    ],
+    "href": "pages/deal.html?id=last-minute-07"
+  },
+  {
+    "id": "last-minute-08",
+    "title": "Venice Final Seats",
+    "date": "Jan 18 - 24",
+    "rating": "4.67",
+    "currency": "€",
+    "originalPrice": 1599,
+    "discountPercent": 25,
+    "finalPrice": 1199,
+    "image": "https://images.unsplash.com/photo-1533104816931-20fa691ff6ca?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Venice Final Seats photo",
+    "badges": [
+      "25% Off"
+    ],
+    "href": "pages/deal.html?id=last-minute-08"
+  },
+  {
+    "id": "last-minute-09",
+    "title": "Singapore Stopover",
+    "date": "Jan 21 - 26",
+    "rating": "4.60",
+    "currency": "€",
+    "originalPrice": 1399,
+    "discountPercent": 20,
+    "finalPrice": 1119,
+    "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Singapore Stopover photo",
+    "badges": [
+      "20% Off"
+    ],
+    "href": "pages/deal.html?id=last-minute-09"
+  },
+  {
+    "id": "last-minute-10",
+    "title": "Dubai Last Call",
+    "date": "Jan 24 - 30",
+    "rating": "4.66",
+    "currency": "€",
+    "originalPrice": 1699,
+    "discountPercent": 30,
+    "finalPrice": 1189,
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1000&q=80",
+    "alt": "Dubai Last Call photo",
+    "badges": [
+      "30% Off"
+    ],
+    "href": "pages/deal.html?id=last-minute-10"
+  }
+]

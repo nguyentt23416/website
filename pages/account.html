@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>travel.io — Account</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="account.css" />
+</head>
+<body class="account-page" data-base="../">
+  <header class="topbar page-topbar">
+    <a class="brand" href="../landing.html">travel.io</a>
+    <nav class="main-nav" aria-label="Primary navigation"><a href="listing.html">Destinations</a><a href="deals.html">Packages</a></nav>
+    <div class="account-links"><a href="#">Help</a><span class="globe">◉</span><span class="divider"></span><a href="login.html">Log In</a></div>
+  </header>
+  <main class="account-shell">
+    <aside class="account-sidebar">
+      <div class="profile-card"><div class="profile-photo">A</div><div><h2 id="account-name">Travel.io user</h2><p id="account-email">user@email.com</p></div></div>
+      <nav class="account-tabs">
+        <button class="active" type="button" data-tab="personal">Personal data</button>
+        <button type="button" data-tab="booking">Booking history</button>
+        <button type="button" data-tab="companions">Companions</button>
+        <button type="button" data-tab="favourites">Favourites</button>
+        <button type="button" data-tab="help">Help</button>
+        <button type="button" data-tab="settings">Account settings</button>
+      </nav>
+      <button class="account-logout" id="account-logout" type="button">Log out</button>
+    </aside>
+    <section class="account-content">
+      <section class="account-panel account-tab-panel is-active" id="panel-personal">
+        <h1>Personal Information</h1>
+        <div class="account-grid">
+          <label>Full Name<input id="profile-full-name"></label>
+          <label>Email<input id="profile-email"></label>
+          <label>Phone number<input id="profile-phone"></label>
+          <label>Role<input value="Customer" readonly></label>
+        </div>
+        <div class="account-actions"><button id="delete-account" type="button">Delete account</button><button id="save-account" type="button">Save</button></div>
+      </section>
+
+      <section class="account-panel account-tab-panel" id="panel-booking">
+        <h1>Booking history</h1>
+        <div class="booking-list" id="booking-list"></div>
+      </section>
+
+      <section class="account-panel account-tab-panel" id="panel-booking-detail">
+        <div class="panel-heading-row">
+          <h1>Booking details</h1>
+          <button class="small-ghost" id="back-to-bookings" type="button">Back to booking history</button>
+        </div>
+        <div class="booking-detail-grid" id="booking-detail"></div>
+      </section>
+
+      <section class="account-panel account-tab-panel" id="panel-companions">
+        <div class="panel-heading-row">
+          <h1>Companions</h1>
+          <button class="small-primary" id="new-companion" type="button">＋ New Companion</button>
+        </div>
+        <form class="companion-form" id="companion-form" hidden>
+          <input id="companion-name" placeholder="Passenger name">
+          <select id="companion-type"><option>Adult</option><option>Child</option></select>
+          <input id="companion-dob" type="date">
+          <select id="companion-gender"><option>Female</option><option>Male</option><option>Other</option></select>
+          <button type="submit">Add</button>
+        </form>
+        <div class="table-wrap">
+          <table class="account-table">
+            <thead><tr><th>Passenger Name</th><th>Passenger Type</th><th>Date of Birth</th><th>Gender</th><th></th></tr></thead>
+            <tbody id="companions-list"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="account-panel account-tab-panel" id="panel-favourites">
+        <h1>Favourites</h1>
+        <div class="favourites-grid" id="favourites-list"></div>
+      </section>
+
+      <section class="account-panel account-tab-panel" id="panel-help">
+        <h1>Help</h1>
+        <div class="help-list">
+          <p><strong>Support Center</strong><span>Find answers for booking, payment, and account questions.</span></p>
+          <p><strong>Cancellation Policy</strong><span>Review cancellation and refund terms before your trip.</span></p>
+          <p><strong>Contact</strong><span>Email support@travel.io for account and travel support.</span></p>
+        </div>
+      </section>
+
+      <section class="account-panel account-tab-panel" id="panel-settings">
+        <h1>Change Password</h1>
+        <form id="change-password-form" class="settings-form" novalidate>
+          <label>Old Password<input id="old-password" type="password"></label>
+          <div class="account-grid">
+            <label>New Password<input id="new-password" type="password"></label>
+            <label>Confirm New Password<input id="confirm-new-password" type="password"></label>
+          </div>
+          <p class="account-message" id="settings-message"></p>
+          <div class="account-actions"><button id="discard-password" type="button">Discard</button><button type="submit">Save</button></div>
+        </form>
+      </section>
+    </section>
+  </main>
+  <script src="../auth-nav.js"></script>
+  <script src="auth-store.js"></script>
+  <script src="account.js"></script>
+</body>
+</html>

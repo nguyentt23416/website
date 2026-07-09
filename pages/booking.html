@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>travel.io — Booking Details</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="booking.css" />
+</head>
+<body class="checkout-page" data-base="../">
+  <header class="topbar page-topbar">
+    <a class="brand" href="../landing.html">travel.io</a>
+    <nav class="main-nav"><a href="listing.html">Destinations</a><a href="deals.html">Packages</a></nav>
+    <div class="account-links"><a href="#">Help</a><span class="globe">◉</span><span class="divider"></span><a href="login.html">Log In</a></div>
+  </header>
+
+  <main class="checkout-shell">
+    <div class="stepper"><span class="done">Choose your tour</span><span class="active">Your details</span><span>Finish booking</span></div>
+    <div class="checkout-grid">
+      <section class="checkout-main">
+        <form id="booking-form" novalidate>
+          <section class="checkout-card">
+            <h2>How many are travellers?</h2>
+            <div class="guest-row">
+              <div><b>Children <small>Age 0-13</small></b><strong id="child-price">€0.00</strong><div class="counter"><button type="button" data-count="children" data-step="-1">−</button><span id="children-count">0</span><button type="button" data-count="children" data-step="1">+</button></div></div>
+              <div><b>Adults</b><strong id="adult-price">€0.00</strong><div class="counter"><button type="button" data-count="adults" data-step="-1">−</button><span id="adults-count">1</span><button type="button" data-count="adults" data-step="1">+</button></div></div>
+            </div>
+          </section>
+
+          <section class="checkout-card">
+            <h2>Add traveller details</h2>
+            <p class="notice">Traveller details should match passport information.</p>
+            <div class="traveller-list" id="traveller-list"></div>
+          </section>
+
+          <section class="checkout-card faq-row"><b>Got a question? Check out our FAQs</b><button type="button">View FAQs</button></section>
+          <p class="form-error" id="booking-error"></p>
+          <button class="checkout-next" type="submit">Continue to payment</button>
+        </form>
+      </section>
+      <aside class="checkout-side" id="checkout-summary"></aside>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div><h2>travel.io</h2><p>To connect people with the beauty of the world through curated tours and exceptional service.</p></div></footer>
+
+  <script src="../auth-nav.js"></script>
+  <script src="auth-store.js"></script>
+  <script src="booking-store.js"></script>
+  <script src="booking.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>travel.io — Sign Up</title>
+  <link rel="stylesheet" href="auth.css" />
+</head>
+<body class="auth-page">
+  <main class="auth-card">
+    <section class="auth-form-panel">
+      <h1 class="auth-title">Create your account.</h1>
+      <p class="auth-switch">Already have an account? <a href="login.html">Sign In</a></p>
+      <form id="signup-form" novalidate>
+        <div class="auth-field">
+          <label for="fullName">Full Name</label>
+          <input id="fullName" type="text" placeholder="Your full name" autocomplete="name" required>
+        </div>
+        <div class="auth-field">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Your mail" autocomplete="email" required>
+        </div>
+        <div class="auth-field">
+          <label for="phone">Phone number</label>
+          <input id="phone" type="tel" placeholder="Minimum 10 numbers" autocomplete="tel" required>
+        </div>
+        <div class="auth-field">
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Your password" autocomplete="new-password" required>
+        </div>
+        <div class="auth-field">
+          <label for="confirmPassword">Re-enter Password</label>
+          <input id="confirmPassword" type="password" placeholder="Repeat your password" autocomplete="new-password" required>
+        </div>
+        <label class="terms-row"><input id="terms" type="checkbox"> <span>I agree to the <a href="#">terms and condition</a></span></label>
+        <button class="auth-button" type="submit">Sign Up</button>
+        <p class="auth-error" id="auth-error" aria-live="polite"></p>
+      </form>
+    </section>
+    <section class="auth-visual">
+      <img class="auth-static-image" src="../assets/images/auth-static-placeholder.svg" alt="Travel placeholder">
+    </section>
+  </main>
+  <script src="auth-store.js"></script>
+  <script src="signup.js"></script>
+</body>
+</html>

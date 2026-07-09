@@ -1,0 +1,123 @@
+body.account-page{background:#eef3f4;color:#172123}
+.account-page .topbar{position:static;color:#172123;background:#fff;border-bottom:1px solid #dbe3e5}
+.account-page .brand{color:#f85e28;text-shadow:none}
+.account-page .main-nav,.account-page .account-links{color:#172123}
+.account-shell{width:min(1320px,calc(100% - 80px));margin:48px auto 80px;display:grid;grid-template-columns:320px minmax(0,1fr);gap:24px}
+.profile-card,.account-tabs,.account-logout,.account-panel{background:#fff;border:1px solid #d1dee2;border-radius:8px}
+.profile-card{display:flex;gap:16px;align-items:center;padding:18px}
+.profile-photo{width:58px;height:58px;border-radius:50%;background:#cfe1e5;display:grid;place-items:center;font-weight:900;color:#2d3a3c}
+.profile-card h2{font-size:20px;margin:0 0 6px}
+.profile-card p{margin:0;color:#6a8990}
+.account-tabs{margin-top:16px;overflow:hidden;display:grid}
+.account-tabs button,.account-logout{height:58px;border:0;border-bottom:1px solid #dbe3e5;background:#fff;text-align:left;padding:0 18px;font-size:16px;color:#172123;cursor:pointer}
+.account-tabs button.active{color:#2730f0;font-weight:700}
+.account-logout{width:100%;margin-top:16px;color:#f04444;border:1px solid #d1dee2;border-radius:8px}
+.account-content{display:grid;gap:24px}
+.account-panel{padding:22px}
+.account-panel h1{font-size:22px;margin:0 0 24px}
+.account-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.account-grid label{display:grid;gap:8px;color:#3e5459}
+.account-grid input{height:48px;border:1px solid #cfdadd;border-radius:8px;padding:0 14px;font-size:16px;color:#455d63}
+.booking-card{height:74px;border:1px solid #d7e2e5;border-radius:8px;display:grid;grid-template-columns:1fr auto auto;gap:30px;align-items:center;padding:0 18px;margin-top:14px}
+.booking-card em{font-style:normal;border-radius:99px;background:#e9e7ff;color:#2730f0;padding:8px 14px}
+.account-actions{display:flex;justify-content:flex-end;gap:24px}
+.account-actions button{height:48px;border-radius:8px;padding:0 70px;font-weight:800;font-size:16px;cursor:pointer}
+#delete-account{background:#fff;color:#f04444;border:1px solid #f3b6b6}
+#save-account{border:0;background:#cbd7da;color:#6b858c}
+@media(max-width:900px){.account-shell{grid-template-columns:1fr;width:calc(100% - 32px)}.account-grid{grid-template-columns:1fr}.booking-card{grid-template-columns:1fr}.account-actions{display:grid}.account-actions button{width:100%;padding:0}}
+.account-tab-panel{display:none}
+.account-tab-panel.is-active{display:block}
+.account-tab-panel .account-actions{margin-top:30px}
+.empty-state{border:1px dashed #cfdadd;border-radius:8px;padding:28px;color:#6a8990;background:#f8fbfb;font-weight:700}
+.booking-list{display:grid;gap:14px}
+
+.account-tab-panel{display:none}
+.account-tab-panel.is-active{display:block}
+.panel-heading-row{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:18px}
+.panel-heading-row h1{margin:0}
+.small-primary{border:0;border-radius:7px;background:#2730e6;color:#fff;font-size:16px;padding:10px 20px;cursor:pointer}
+.companion-form{display:grid;grid-template-columns:1.3fr .8fr .9fr .8fr auto;gap:12px;margin:0 0 18px}
+.companion-form[hidden]{display:none}
+.companion-form input,.companion-form select,.settings-form input{height:45px;border:1px solid #cfdadd;border-radius:8px;padding:0 12px;font-size:15px;color:#2d3a3c;background:#fff}
+.companion-form button{border:0;border-radius:7px;background:#2730e6;color:#fff;font-weight:700;padding:0 20px}
+.table-wrap{overflow:auto;border:1px solid #d7e2e5;border-radius:8px}
+.account-table{width:100%;border-collapse:collapse;background:#fff}
+.account-table th,.account-table td{border-bottom:1px solid #d7e2e5;padding:18px;text-align:center;color:#455d63}
+.account-table th{font-size:18px;font-weight:800}
+.account-table tr:last-child td{border-bottom:0}
+.table-empty{text-align:center!important;color:#6a8990!important;font-weight:700}
+.text-action{border:0;background:transparent;color:#f04444;text-decoration:underline;cursor:pointer;font-size:15px}
+.favourites-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.fav-card{min-width:0}
+.fav-image{height:260px;border-radius:8px;overflow:hidden;position:relative;background:#dcecef}
+.fav-image img{width:100%;height:100%;object-fit:cover}
+.fav-placeholder{height:100%;display:grid;place-items:center;color:#607980;font-weight:800;font-size:22px}
+.heart{position:absolute;right:14px;top:14px;width:34px;height:34px;border:0;border-radius:50%;background:#eef3ff;color:#2730a7;font-size:18px;cursor:pointer}
+.fav-copy{padding-top:10px}
+.fav-copy div{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.fav-copy h3{margin:0;font-size:18px}
+.fav-copy p{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:8px 0 0;color:#172123}
+.fav-copy em{color:#f85e28;font-style:normal}
+.help-list{display:grid;gap:12px}
+.help-list p{border:1px solid #d7e2e5;border-radius:8px;padding:18px;margin:0;display:grid;gap:6px}
+.help-list span{color:#6a8990}
+.settings-form{display:grid;gap:20px}
+.settings-form label{display:grid;gap:8px;color:#3e5459}
+.settings-form>.account-grid{margin-top:0}
+.account-message{min-height:22px;margin:0;font-weight:700}
+.account-message.error{color:#e03131}
+.account-message.success{color:#178a4b}
+.empty-state{border:1px dashed #cfdadd;border-radius:8px;padding:28px;color:#6a8990;background:#f8fbfb;font-weight:700}
+@media(max-width:1050px){.favourites-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.companion-form{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.favourites-grid{grid-template-columns:1fr}.companion-form{grid-template-columns:1fr}.panel-heading-row{display:grid}.fav-image{height:220px}}
+
+.booking-card-clickable{width:100%;text-align:left;background:#fff;cursor:pointer;font:inherit}
+.booking-card-clickable:hover{border-color:#2730e6;box-shadow:0 8px 22px rgba(39,48,230,.08)}
+.booking-detail-grid{display:grid;gap:20px}
+.booking-detail-summary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.booking-detail-summary label,.traveller-edit-card label{display:grid;gap:8px;color:#3e5459}
+.booking-detail-summary input,.booking-detail-summary select,.traveller-edit-card input,.traveller-edit-card select{height:46px;border:1px solid #cfdadd;border-radius:8px;padding:0 12px;font-size:15px;color:#455d63;background:#fff}
+.traveller-edit-list{display:grid;gap:16px}
+.traveller-edit-card{border:1px solid #d7e2e5;border-radius:10px;padding:18px;background:#fff}
+.traveller-edit-card h3{margin:0 0 16px}
+.booking-edit-actions #delete-booking{background:#fff;color:#f04444;border:1px solid #f3b6b6}
+.booking-edit-actions #save-booking{border:0;background:#cbd7da;color:#607980}
+.small-ghost{border:1px solid #d7e2e5;background:#fff;color:#455d63;border-radius:7px;padding:10px 16px;cursor:pointer;font-weight:700}
+.small-ghost:hover{border-color:#2730e6;color:#2730e6}
+@media(max-width:760px){.booking-detail-summary{grid-template-columns:1fr}}
+
+.order-status-card{background:#fff;border:1px solid #d7e2e5;border-radius:12px;padding:22px;margin-bottom:18px}
+.order-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative;margin:0 auto 12px;max-width:780px}
+.order-steps:before{content:"";position:absolute;left:12%;right:12%;top:11px;height:2px;background:#4a86ff}
+.order-steps span{position:relative;text-align:center;padding-top:34px;font-weight:700;color:#172123}
+.order-steps span:before{content:"";position:absolute;top:3px;left:50%;transform:translateX(-50%);width:18px;height:18px;border-radius:50%;background:#fff;border:2px solid #4a86ff;z-index:1}
+.order-steps span.done:before{content:"✓";background:#4a86ff;color:#fff;display:grid;place-items:center;font-size:11px}
+.journey-link{display:block;margin:0 auto;border:0;background:transparent;color:#2d72ff;font-weight:700;cursor:pointer}
+.order-detail-layout{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.order-left,.order-right{display:grid;gap:16px;align-content:start}
+.order-box{border:1px solid #d7e2e5;background:#fff;border-radius:12px;padding:20px}
+.order-box h2{font-size:18px;margin:0 0 18px}
+.order-box dl{display:grid;gap:0;margin:0}
+.order-box dl div{display:grid;grid-template-columns:1fr auto;gap:16px;border-bottom:1px solid #e5ecee;padding:13px 0}
+.order-box dl div:last-child{border-bottom:0}
+.order-box dt{color:#6a8990}
+.order-box dd{margin:0;font-weight:800;text-align:right}
+.order-box .green{color:#15a85d}
+.payment-product{background:#f5f5f6;border-radius:7px;padding:12px 16px;margin-bottom:12px;display:flex;justify-content:space-between}
+.payment-total{border-top:1px solid #d7e2e5;padding-top:14px;margin-top:14px;display:flex;justify-content:space-between;font-weight:800}
+.payment-total strong{color:#f85e28}
+.order-travellers{display:grid;gap:10px}
+.order-travellers p{margin:0;border-bottom:1px solid #e5ecee;padding-bottom:10px;display:grid;gap:4px}
+.order-travellers p:last-child{border-bottom:0}
+.order-travellers span{color:#6a8990}
+.booking-edit-form.compact{display:grid;gap:12px}
+.booking-edit-form.compact label{display:grid;gap:6px;color:#455d63}
+.booking-edit-form.compact input,.booking-edit-form.compact select{height:42px;border:1px solid #cfdadd;border-radius:8px;padding:0 12px}
+.order-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.order-actions button{height:42px;border-radius:7px;font-weight:800;cursor:pointer}
+#delete-booking{background:#fff;color:#f04444;border:1px solid #f3b6b6}
+#save-booking{border:0;background:#cbd7da;color:#607980}
+@media(max-width:900px){.order-detail-layout{grid-template-columns:1fr}.order-steps{grid-template-columns:1fr;gap:10px}.order-steps:before{display:none}.order-steps span{text-align:left;padding:0 0 0 34px}.order-steps span:before{left:9px;top:0}}
+
+.readonly-note{border:1px solid #d7e2e5;border-radius:8px;background:#f8fbfb;color:#607980;padding:14px 16px;line-height:1.55;margin:0 0 14px}
+.order-box h2:has(+ .readonly-note){color:#172123}

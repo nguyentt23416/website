@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" width="900" height="760">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9cbd0"/>
+      <stop offset="1" stop-color="#506469"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="760" rx="10" fill="url(#g)"/>
+  <text x="450" y="116" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="white">travel.io</text>
+  <text x="450" y="382" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#d9e0e2">Static placeholder image</text>
+  <text x="450" y="608" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="800" fill="white">Explore the World,</text>
+  <text x="450" y="660" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="800" fill="white">One Destination at a Time</text>
+</svg>

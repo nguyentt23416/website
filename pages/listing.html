@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>travel.io — Listings</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="listing.css" />
+</head>
+<body class="results-page" data-base="../">
+  <header class="topbar page-topbar">
+    <a class="brand" href="../landing.html">travel.io</a>
+    <nav class="main-nav" aria-label="Primary navigation"><a href="listing.html">Destinations</a><a href="deals.html">Packages</a></nav>
+    <div class="account-links"><a href="#">Help</a><span class="globe">◉</span><span class="divider"></span><a href="#">Log In</a></div>
+  </header>
+  <main>
+    <section class="results-hero">
+      <form class="search-bar results-search" id="trip-search" action="listing.html">
+        <div class="search-field field-menu">
+          <button class="field-trigger" type="button" id="country-trigger" aria-expanded="false" aria-controls="country-menu"><span class="field-title">From</span><small id="country-value" aria-live="polite"></small></button>
+          <div class="field-dropdown country-menu" id="country-menu" role="menu" aria-labelledby="country-trigger"></div><input type="hidden" name="from" id="country-input">
+        </div>
+        <div class="search-field field-menu">
+          <button class="field-trigger" type="button" id="destination-trigger" aria-expanded="false" aria-controls="destination-menu"><span class="field-title" id="destination-title">Destination</span><small id="destination-help" aria-live="polite"></small></button>
+          <div class="field-dropdown destination-menu" id="destination-menu" role="menu" aria-labelledby="destination-trigger"></div><input type="hidden" name="destination" id="destination-input">
+        </div>
+        <div class="search-field date-field"><button class="field-trigger" type="button" id="date-trigger"><span class="field-title">Date</span><small id="date-help" aria-live="polite"></small></button><input class="native-date" type="date" name="date" id="date-input" aria-label="Travel date"></div>
+        <button class="search-submit" type="submit" aria-label="Search"><span>Search</span><img src="../assets/images/search.svg" alt="" /></button>
+      </form>
+    </section>
+    <section class="tour-layout shell">
+      <aside class="filters listing-filters">
+        <button class="clear-filters" id="clear-filters" type="button">Clear all filters</button>
+        <div class="filter-card">
+          <h3>Filter By</h3>
+          <label><input class="category-filter" type="checkbox" value="Nature and Outdoors">Nature and Outdoors</label>
+          <label><input class="category-filter" type="checkbox" value="Urban and City life">Urban and City life</label>
+          <label><input class="category-filter" type="checkbox" value="Cultural and Heritage">Cultural and Heritage</label>
+          <label><input class="category-filter" type="checkbox" value="Family Friendly">Family Friendly</label>
+          <label><input class="category-filter" type="checkbox" value="Luxury and Exclusive">Luxury and Exclusive</label>
+        </div>
+        <div class="filter-card">
+          <h3>Price</h3>
+          <div class="range-row">
+            <input id="price-min-display" value="Min €0" readonly>
+            <input id="price-max-display" value="Max €0" readonly>
+          </div>
+          <div class="range-control">
+            <input id="price-min" type="range" min="0" max="10000" value="0">
+            <input id="price-max" type="range" min="0" max="10000" value="10000">
+          </div>
+        </div>
+        <div class="filter-card">
+          <h3>Length</h3>
+          <div class="length-row">
+            <small id="length-min-label">min. 3 days</small>
+            <small id="length-max-label">21+ days</small>
+          </div>
+          <div class="range-control">
+            <input id="length-min" type="range" min="3" max="21" value="3">
+            <input id="length-max" type="range" min="3" max="21" value="21">
+          </div>
+        </div>
+        <div class="filter-card">
+          <h3>Stay rating</h3>
+          <div class="stars-filter" id="stay-rating-filter">
+            <button type="button" data-rating="1">☆</button>
+            <button type="button" data-rating="2">☆</button>
+            <button type="button" data-rating="3">☆</button>
+            <button type="button" data-rating="4">☆</button>
+            <button type="button" data-rating="5">☆</button>
+          </div>
+        </div>
+        <div class="filter-card">
+          <h3>Stay option</h3>
+          <label><input class="stay-filter" type="radio" checked name="stay" value="Any">Any</label>
+          <label><input class="stay-filter" type="radio" name="stay" value="Hotels">Hotels</label>
+          <label><input class="stay-filter" type="radio" name="stay" value="Lodges">Lodges</label>
+          <label><input class="stay-filter" type="radio" name="stay" value="Resorts">Resorts</label>
+          <label><input class="stay-filter" type="radio" name="stay" value="Inns">Inns</label>
+        </div>
+      </aside>
+      <section class="tour-results"><div class="results-toolbar"><p><strong id="tour-count">0</strong> listings in <span id="tour-region">all destinations</span></p><label>Sort By<select id="sort-select">
+            <option value="recommended">Recommended</option>
+            <option value="price-asc">Price low to high</option>
+            <option value="price-desc">Price high to low</option>
+            <option value="rating">Rating</option>
+            <option value="reviews">Reviews</option>
+          </select></label></div><div class="tour-list" id="tour-list" aria-live="polite"></div></section>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-main shell"><div class="about-brand"><h2>travel.io</h2><p>To connect people with the beauty of the world through curated tours, sustainable travel options, and exceptional service.</p></div><div class="footer-links"><div><h3>About</h3><a>About Us</a><a>Our Mission</a><a>Testimonials</a><a>Careers</a><a>Press &amp; Media</a></div><div><h3>Explore</h3><a>Destinations</a><a>Packages</a><a>Last Minute Deals</a></div><div><h3>Support</h3><a>Support Center</a><a>FAQs</a><a>Booking Policies</a><a>Cancellation &amp; Refund Policy</a><a>Travel Insurance Information</a></div><div><h3>Resources</h3><a>Blog</a><a>Travel Tips</a><a>Packing Guides</a><a>Visa &amp; Passport Information</a><a>Health &amp; Safety</a></div><div><h3>Legal</h3><a>Terms &amp; Conditions</a><a>Privacy Policy</a><a>Cookie Policy</a><a>Accessibility Statement</a></div></div></div>
+    <div class="footer-bottom shell"><span>© 2026 travel.io, Inc.</span><span class="footer-right">◉ English (US)　€ EUR　 <img src="../assets/images/facebook.svg" alt="Facebook"><img src="../assets/images/youtube.svg" alt="YouTube"><img src="../assets/images/instagram.svg" alt="Instagram"><img src="../assets/images/tiktok.svg" alt="TikTok"></span></div>
+  </footer>
+  <script src="listing.js"></script>
+  <script src="../auth-nav.js"></script>
+</body>
+</html>

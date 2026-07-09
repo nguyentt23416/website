@@ -1,0 +1,264 @@
+[
+  {
+    "id": "tour-italy-21-days",
+    "title": "Italy in 21 days",
+    "region": "Europe",
+    "image": "assets/images/crops/recent-italy.jpg",
+    "rating": "4.9",
+    "reviews": 45,
+    "hotel": "5 Star Hotel",
+    "location": "Artemide",
+    "duration": "20 Nights and 21 Days",
+    "price": 7500,
+    "currency": "€",
+    "dates": [
+      "Jan 5, 2025",
+      "April 24, 2025"
+    ],
+    "tags": [
+      "Family Friendly",
+      "Hotel",
+      "Flight",
+      "Transfer",
+      "Meal"
+    ],
+    "left": "Only 6 left",
+    "category": "Cultural and Heritage",
+    "stay": "Hotels"
+  },
+  {
+    "id": "tour-santorini",
+    "title": "Santorini",
+    "region": "Europe",
+    "image": "assets/images/crops/recent-morocco.jpg",
+    "rating": "4.8",
+    "reviews": 380,
+    "hotel": "5 Star Hotel",
+    "location": "Sheraton",
+    "duration": "5 Nights and 4 Days",
+    "price": 1250,
+    "currency": "€",
+    "dates": [
+      "Jan 5, 2025",
+      "Aug 24, 2025"
+    ],
+    "tags": [
+      "Adult Only",
+      "Hotel",
+      "Flight",
+      "Transfer",
+      "Meal"
+    ],
+    "left": "",
+    "category": "Luxury and Exclusive",
+    "stay": "Resorts"
+  },
+  {
+    "id": "tour-spain",
+    "title": "Spain",
+    "region": "Europe",
+    "image": "assets/images/crops/city-florence.jpg",
+    "rating": "4.6",
+    "reviews": 45,
+    "hotel": "4 Star Hotel",
+    "location": "Aqua Luxury suites",
+    "duration": "6 Nights and 7 Days",
+    "price": 7500,
+    "currency": "€",
+    "dates": [
+      "Jan 5, 2025",
+      "Aug 24, 2025"
+    ],
+    "tags": [
+      "Hotel",
+      "Flight",
+      "Transfer",
+      "Meal"
+    ],
+    "left": "15 Left",
+    "category": "Urban and City life",
+    "stay": "Hotels"
+  },
+  {
+    "id": "tour-prague",
+    "title": "Prague",
+    "region": "Europe",
+    "image": "assets/images/crops/christmas-prague.jpg",
+    "rating": "4.6",
+    "reviews": 45,
+    "hotel": "4 Star Hotel",
+    "location": "Aqua Luxury suites",
+    "duration": "6 Nights and 7 Days",
+    "price": 7500,
+    "currency": "€",
+    "dates": [
+      "Jan 5, 2025",
+      "Aug 24, 2025"
+    ],
+    "tags": [
+      "Adult Only",
+      "Hotel",
+      "Flight",
+      "Transfer",
+      "Meal"
+    ],
+    "left": "Only 2 left",
+    "category": "Cultural and Heritage",
+    "stay": "Hotels"
+  },
+  {
+    "id": "tour-london",
+    "title": "London",
+    "region": "Europe",
+    "image": "assets/images/crops/city-paris.jpg",
+    "rating": "4.6",
+    "reviews": 45,
+    "hotel": "4 Star Hotel",
+    "location": "Aqua Luxury suites",
+    "duration": "6 Nights and 7 Days",
+    "price": 7500,
+    "currency": "€",
+    "dates": [
+      "Jan 5, 2025",
+      "Aug 24, 2025"
+    ],
+    "tags": [
+      "Hotel",
+      "Flight",
+      "Transfer"
+    ],
+    "left": "",
+    "category": "Urban and City life",
+    "stay": "Hotels"
+  },
+  {
+    "id": "tour-austria",
+    "title": "Austria",
+    "region": "Europe",
+    "image": "assets/images/crops/city-rome.jpg",
+    "rating": "4.6",
+    "reviews": 45,
+    "hotel": "4 Star Hotel",
+    "location": "Aqua Luxury suites",
+    "duration": "6 Nights and 7 Days",
+    "price": 7500,
+    "currency": "€",
+    "dates": [
+      "Jan 5, 2025",
+      "Aug 24, 2025"
+    ],
+    "tags": [
+      "Family Friendly",
+      "Hotel",
+      "Flight",
+      "Meal"
+    ],
+    "left": "",
+    "category": "Nature and Outdoors",
+    "stay": "Lodges"
+  },
+  {
+    "id": "tour-thailand",
+    "title": "Thailand Heaven",
+    "region": "Asia",
+    "image": "assets/images/crops/deal-thailand.jpg",
+    "rating": "4.7",
+    "reviews": 214,
+    "hotel": "5 Star Resort",
+    "location": "Phi Phi Island",
+    "duration": "7 Nights and 8 Days",
+    "price": 1199,
+    "currency": "€",
+    "dates": [
+      "Feb 1, 2025",
+      "Sep 8, 2025"
+    ],
+    "tags": [
+      "Beach",
+      "Hotel",
+      "Flight",
+      "Meal"
+    ],
+    "left": "Only 8 left",
+    "category": "Nature and Outdoors",
+    "stay": "Resorts"
+  },
+  {
+    "id": "tour-japan",
+    "title": "Japan Sakura Route",
+    "region": "Asia",
+    "image": "assets/images/crops/deal-japan.jpg",
+    "rating": "4.8",
+    "reviews": 188,
+    "hotel": "4 Star Hotel",
+    "location": "Tokyo Central",
+    "duration": "8 Nights and 9 Days",
+    "price": 1899,
+    "currency": "€",
+    "dates": [
+      "Mar 20, 2025",
+      "Apr 4, 2025"
+    ],
+    "tags": [
+      "Cultural",
+      "Hotel",
+      "Flight",
+      "Transfer"
+    ],
+    "left": "12 Left",
+    "category": "Cultural and Heritage",
+    "stay": "Hotels"
+  },
+  {
+    "id": "tour-morocco",
+    "title": "Morocco Desert Escape",
+    "region": "Africa",
+    "image": "assets/images/crops/recent-morocco.jpg",
+    "rating": "4.7",
+    "reviews": 96,
+    "hotel": "Boutique Riad",
+    "location": "Marrakech",
+    "duration": "6 Nights and 7 Days",
+    "price": 1425,
+    "currency": "€",
+    "dates": [
+      "Apr 8, 2025",
+      "Oct 16, 2025"
+    ],
+    "tags": [
+      "Adventure",
+      "Hotel",
+      "Transfer",
+      "Meal"
+    ],
+    "left": "",
+    "category": "Nature and Outdoors",
+    "stay": "Inns"
+  },
+  {
+    "id": "tour-paris",
+    "title": "Paris for 10 Days",
+    "region": "Europe",
+    "image": "assets/images/crops/christmas-paris.jpg",
+    "rating": "4.6",
+    "reviews": 172,
+    "hotel": "4 Star Hotel",
+    "location": "Seine View",
+    "duration": "9 Nights and 10 Days",
+    "price": 1199,
+    "currency": "€",
+    "dates": [
+      "May 2, 2025",
+      "Jun 8, 2025"
+    ],
+    "tags": [
+      "Hotel",
+      "Flight",
+      "Transfer",
+      "Meal"
+    ],
+    "left": "Only 5 left",
+    "category": "Urban and City life",
+    "stay": "Hotels"
+  }
+]

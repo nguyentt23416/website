@@ -1,0 +1,120 @@
+[
+  {
+    "id": "user-001",
+    "fullName": "Anna Smith",
+    "email": "anna.smith@gmail.com",
+    "phone": "0912345678",
+    "createdAt": "2026-07-09T00:00:00.000Z",
+    "role": "customer",
+    "bookings": [
+      {
+        "title": "Italy in 21 Days",
+        "price": "€37,240.00",
+        "status": "Upcoming"
+      },
+      {
+        "title": "Paris",
+        "price": "€21,250.00",
+        "status": "Past Trips"
+      }
+    ],
+    "passwordSalt": "MYxaxtcoFTZ+9BMNeZTyFQ==",
+    "passwordHash": "j5L+YI9XJYOKEkjZkCpnJ8k0JW7MU3eIvxpLmP1jr1s=",
+    "passwordIterations": 100000,
+    "passwordAlgorithm": "PBKDF2-SHA256",
+    "favorites": [
+      {
+        "id": "popular-italy-21-days",
+        "title": "Italy in 21 Days",
+        "date": "Jan 5 - 26",
+        "rating": "4.9",
+        "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1000&q=80",
+        "price": "€7500",
+        "currency": "€",
+        "href": "pages/deal.html?id=popular-italy-21-days"
+      },
+      {
+        "id": "popular-thailand-heaven",
+        "title": "Thailand Heaven",
+        "date": "Jan 5 - 12",
+        "rating": "4.65",
+        "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=1000&q=80",
+        "price": "€1090",
+        "currency": "€",
+        "href": "pages/deal.html?id=popular-thailand-heaven"
+      },
+      {
+        "id": "popular-japan-experience",
+        "title": "Japan's Experience",
+        "date": "Jan 5 - 12",
+        "rating": "4.65",
+        "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1000&q=80",
+        "price": "€1090",
+        "currency": "€",
+        "href": "pages/deal.html?id=popular-japan-experience"
+      },
+      {
+        "id": "summer-budapest",
+        "title": "A week in Budapest",
+        "date": "Dec 24 - 29",
+        "rating": "4.65",
+        "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1000&q=80",
+        "price": "€1090",
+        "currency": "€",
+        "href": "pages/deal.html?id=summer-budapest"
+      }
+    ],
+    "companions": [
+      {
+        "id": "comp-001",
+        "name": "Mary Brownaa",
+        "type": "Adult",
+        "dob": "1989-08-19",
+        "gender": "Female"
+      },
+      {
+        "id": "comp-002",
+        "name": "Ann Richmond",
+        "type": "Adult",
+        "dob": "1983-06-16",
+        "gender": "Female"
+      },
+      {
+        "id": "comp-003",
+        "name": "Chung Schluet",
+        "type": "Adult",
+        "dob": "1980-10-10",
+        "gender": "Male"
+      },
+      {
+        "id": "comp-004",
+        "name": "Mariana Smith",
+        "type": "Adult",
+        "dob": "1999-02-02",
+        "gender": "Female"
+      },
+      {
+        "id": "comp-005",
+        "name": "Mariana Smith",
+        "type": "Child",
+        "dob": "2020-05-25",
+        "gender": "Female"
+      }
+    ]
+  },
+  {
+    "id": "admin-001",
+    "fullName": "Travel Admin",
+    "email": "admin@travel.io",
+    "phone": "0000000000",
+    "createdAt": "2026-07-09T00:00:00.000Z",
+    "role": "admin",
+    "bookings": [],
+    "favorites": [],
+    "companions": [],
+    "passwordSalt": "fKUKKZSVDRb+C+q+/485GQ==",
+    "passwordHash": "BuD1au4PVwgaNGFhMNzzlCKdVOA/nW2LnhH8IJsjK3Y=",
+    "passwordIterations": 100000,
+    "passwordAlgorithm": "PBKDF2-SHA256"
+  }
+]
