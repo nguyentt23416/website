@@ -156,3 +156,26 @@
   flex:1!important;
   text-align:left!important;
 }
+
+
+@media (min-width: 901px){
+  .listing-hero,
+  .search-hero,
+  .listing-search-wrap,
+  .search-panel,
+  .list-search-wrap{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .listing-search,
+  .listing-search-bar,
+  .search-bar{
+    width: min(100% - 80px, 1320px);
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 18px;
+  }
+}

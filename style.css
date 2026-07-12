@@ -1302,3 +1302,24 @@ body.listing-page .tour-image img{width:100%!important;height:100%!important;min
     padding-inline:14px!important;
   }
 }
+
+
+/* Desktop search bar anti-stretch fix */
+@media (min-width: 901px){
+  body:not(.landing-page) .hero-board,
+  body:not(.home-page) .hero-board{
+    width: min(100% - 80px, 1320px)!important;
+    max-width: 1320px!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+  }
+
+  body:not(.landing-page) .search-bar,
+  body:not(.home-page) .search-bar{
+    width: min(100% - 80px, 1320px)!important;
+    max-width: 1320px!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    border-radius: 18px!important;
+  }
+}
