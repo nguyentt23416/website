@@ -121,3 +121,4 @@ body.account-page{background:#eef3f4;color:#172123}
 
 .readonly-note{border:1px solid #d7e2e5;border-radius:8px;background:#f8fbfb;color:#607980;padding:14px 16px;line-height:1.55;margin:0 0 14px}
 .order-box h2:has(+ .readonly-note){color:#172123}
+

@@ -1,0 +1,45 @@
+html,
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Segoe UI", "Noto Sans", Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.account-page {
+  font-family: "Segoe UI", "Noto Sans", Arial, sans-serif;
+}
+
+.account-page h1,
+.account-page h2,
+.account-page h3,
+.account-page strong,
+.account-page th,
+.account-page .booking-detail-grid b,
+.account-page .booking-detail-grid strong {
+  font-family: "Segoe UI", "Noto Sans", Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+#account-name,
+#account-email,
+.booking-detail-grid,
+.booking-detail-grid * {
+  font-family: "Segoe UI", "Noto Sans", Arial, sans-serif;
+}
+
+#account-name {
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+#account-email {
+  font-weight: 400;
+  line-height: 1.4;
+}
